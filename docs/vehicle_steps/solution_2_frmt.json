@@ -1,0 +1,203 @@
+{
+  "code": 0,
+  "summary": {
+    "cost": 1928,
+    "routes": 1,
+    "unassigned": 0,
+    "delivery": [
+      3
+    ],
+    "amount": [
+      3
+    ],
+    "pickup": [
+      3
+    ],
+    "setup": 0,
+    "service": 0,
+    "duration": 1928,
+    "waiting_time": 2598,
+    "priority": 0,
+    "distance": 18587,
+    "violations": [],
+    "computing_times": {
+      "loading": 5,
+      "solving": 0,
+      "routing": 2
+    }
+  },
+  "unassigned": [],
+  "routes": [
+    {
+      "vehicle": 1,
+      "cost": 1928,
+      "delivery": [
+        3
+      ],
+      "amount": [
+        3
+      ],
+      "pickup": [
+        3
+      ],
+      "setup": 0,
+      "service": 0,
+      "duration": 1928,
+      "waiting_time": 2598,
+      "priority": 0,
+      "distance": 18587,
+      "steps": [
+        {
+          "type": "start",
+          "location": [
+            6.9933735,
+            50.9370069
+          ],
+          "setup": 0,
+          "service": 0,
+          "waiting_time": 0,
+          "load": [
+            0
+          ],
+          "arrival": 1703451116,
+          "duration": 0,
+          "violations": [],
+          "distance": 0
+        },
+        {
+          "type": "pickup",
+          "location": [
+            6.9450656,
+            50.9471084
+          ],
+          "id": 0,
+          "setup": 0,
+          "service": 0,
+          "waiting_time": 0,
+          "job": 0,
+          "load": [
+            1
+          ],
+          "arrival": 1703451660,
+          "duration": 544,
+          "violations": [],
+          "distance": 5362
+        },
+        {
+          "type": "delivery",
+          "location": [
+            6.9347184,
+            50.9426359
+          ],
+          "id": 1,
+          "setup": 0,
+          "service": 0,
+          "waiting_time": 0,
+          "job": 1,
+          "load": [
+            0
+          ],
+          "arrival": 1703451788,
+          "duration": 672,
+          "violations": [],
+          "distance": 6478
+        },
+        {
+          "type": "pickup",
+          "location": [
+            6.9622812,
+            50.9362098
+          ],
+          "id": 4,
+          "setup": 0,
+          "service": 0,
+          "waiting_time": 1161,
+          "job": 4,
+          "load": [
+            1
+          ],
+          "arrival": 1703452239,
+          "duration": 1123,
+          "violations": [],
+          "distance": 11118
+        },
+        {
+          "type": "delivery",
+          "location": [
+            6.9701213,
+            50.9364824
+          ],
+          "id": 5,
+          "setup": 0,
+          "service": 0,
+          "waiting_time": 0,
+          "job": 5,
+          "load": [
+            0
+          ],
+          "arrival": 1703453576,
+          "duration": 1299,
+          "violations": [],
+          "distance": 12668
+        },
+        {
+          "type": "pickup",
+          "location": [
+            6.9816977,
+            50.9332972
+          ],
+          "id": 2,
+          "setup": 0,
+          "service": 0,
+          "waiting_time": 1437,
+          "job": 2,
+          "load": [
+            1
+          ],
+          "arrival": 1703453763,
+          "duration": 1486,
+          "violations": [],
+          "distance": 14313
+        },
+        {
+          "type": "delivery",
+          "location": [
+            6.992125,
+            50.9252228
+          ],
+          "id": 3,
+          "setup": 0,
+          "service": 0,
+          "waiting_time": 0,
+          "job": 3,
+          "load": [
+            0
+          ],
+          "arrival": 1703455446,
+          "duration": 1732,
+          "violations": [],
+          "distance": 16785
+        },
+        {
+          "type": "end",
+          "location": [
+            6.9933735,
+            50.9370069
+          ],
+          "setup": 0,
+          "service": 0,
+          "waiting_time": 0,
+          "load": [
+            0
+          ],
+          "arrival": 1703455642,
+          "duration": 1928,
+          "violations": [],
+          "distance": 18587
+        }
+      ],
+      "violations": [],
+      "geometry": "as{uHw{ti@EWE]Eq@Cq@AMOBQBK@[FKBqA^u@RaDz@a@LBh@F~@HpBBVHfANtBRrBHr@Hr@PfBBZHb@H\\XpC`@bE@b@BVBPB\\FfAFv@Jx@Hn@LdABNBVDZ@HBTFb@n@vE?JBZ@RHfABrABlAIj@AHCJU\\IH_@EQCaEi@QCK@KBKFIJILGNEPARCROnCc@xHAHALARAFAZCXCl@MnECd@?`@?VAj@EdAKxCAXCbAAV?x@CnC?LAh@?f@@p@@r@@P@HJ`@JZFTFLFNJPPXl@v@j@d@f@Vf@LRD\\D`DT`@HZJXRLLNNLTHTJXJj@D|@DbA?D@p@B|@H~Ez@|\\B|@@N?XDjAB`@B\\D`@PtANdAJj@FZ@JHn@@\\FzABn@DZHj@f@dDDTBRFZDPFj@Dp@Bb@?TB`@@VFh@B\\D`@@N@PDZDv@Bh@@v@?XAb@?VA`@CVCd@Gf@KlASZ[d@}B`AmANm@LcAAk@GSEWGKEq@QaA]MGMEIAIEC?ECmAWGAOAO?E@q@DyAPA?oAJk@FYBI@}@JkA\\kAZ}CN{AA_BCqAMq@Wo@UcAm@SIEAIAKNKLKXa@bEALARCXK|BIhBAf@Cl@_@fLE`AGn@MbAI\\I\\GNKRSVUTGFk@n@GFONKNW^CFERKJIJkArAGL????FMjAsAHKJKL?HXFPTr@j@bBjAdDx@zBDTBRBP?LDf@Lf@NTf@f@RTDBFFtDlDfDbDLFHBF@JAFAFN@@FNTp@^fCv@bFF\\BRF`@XfBTzALh@}AvDk@nASj@Q`@Pa@Rk@j@oA|AwDp@uAxA_DDMHODMLYBMBK@OJk@Dc@TeBF{@B_@Do@?MBS?QDc@Du@Hu@F[BMDUFUBOBINs@F[D[F_@B[Bg@@i@@a@?[?U?_@Ac@Cm@Em@Gc@AOEYCQCMIc@Ia@GYGUQc@Q_@MWG[Ww@EKKWCKCMGQGYCQCUASAY?S@OFk@Hy@BS@O@W?]c@}IEmAEq@Cc@C{@AKASGgBEcACmAJc@BODKDKT]REZGv@I`@EFA\\EDARGVGLKbAMTA`@?T?P@f@Bl@J\\HRDJBVFFBp@RhAZf@HTBd@@f@@V?LDJB`AG|Be@JEPGJGBAFGR]BGBEBGFKHQBGBM@c@Dg@Dk@Dy@@y@@i@?i@?c@Ac@Eq@Cc@AUCY?KIc@IcAEm@Am@CeAAm@AMAk@?IAYA]CeBEyAE{BIq@Kg@K]Si@iAmDQ}@Io@Gm@EkA}@{_@C_D?_@CiCAk@A{@Ck@Cg@CSCQCIESO_@OUMQUQWMiAQiAEy@Im@?MA_@GQCOGOIMEMIKIWWUUUa@Y?CBEBEJ?HBPPXl@v@j@d@f@Vf@LRD\\D`DT`@HZJXRLLNNLTHTJXJj@D|@DbA?D@p@B|@H~Ez@|\\B|@@N?XDx@?PB`@B\\D`@PtANdAJj@FZ@JHn@@\\FzABn@DZHj@f@dDDTBRFZDPFj@Dp@Bb@?TQ@wADwAFCqE?KLGFCLANFP@lACLCXIDEJODUCeBEyAE{BIq@Kg@K]Si@iAmDQ}@Io@Gm@EkA}@{_@C_D?_@CiCDsAB_AB_@DWLWHKJIx@Rl@N^FJBR@rAFzA@xAE~BK`AIz@K\\K^IdAc@vBiAz@k@XOZUvAgADEHMBK@G?A?IAKAGCOIYi@a@SSc@_@[Y][OQIIIMISGICK{@iDYcAk@_BYs@]u@c@m@y@_AOOi@e@qA_AMKgBk@j@iF|@}Hz@uGVLWM{@tG}@|Hk@hFi@QqDa@SC_CO]AWAwBMMq@Ag@GyCGiBEeBCgBDa@BQDSBEVc@NYNGLEBCTKJI^WrAeAfCqBdC_B|BqA~BeAx@IlDkA~DkAzAc@lAe@r@k@x@y@v@gAZg@d@kAPc@v@_CpBwGdAsCtA}CvBkGf@yAP[JMRUDANC\\@jBfAl@ZZL[Mm@[kBgAwA_Ao@e@cC_CuAkAY[aDwCMKe@a@[Q[KQIWQWUmBeBy@hDo@hCq@rCOj@Ot@m@hCCJm@jCo@jCBNFLZf@Z`@DNDZ?ZCb@]dA?BSJOFG?I?_@CY]a@i@_BqBiCuCqAsAm@e@m@a@}Aw@u@Ya@I_@GWGkAS_@Io@Se@WMKGIMOMQISA?"
+    }
+  ]
+}

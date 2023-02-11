@@ -1,0 +1,203 @@
+{
+  "code": 0,
+  "summary": {
+    "cost": 1905,
+    "routes": 1,
+    "unassigned": 0,
+    "delivery": [
+      3
+    ],
+    "amount": [
+      3
+    ],
+    "pickup": [
+      3
+    ],
+    "setup": 0,
+    "service": 0,
+    "duration": 1905,
+    "waiting_time": 2598,
+    "priority": 0,
+    "distance": 18200,
+    "violations": [],
+    "computing_times": {
+      "loading": 5,
+      "solving": 0,
+      "routing": 2
+    }
+  },
+  "unassigned": [],
+  "routes": [
+    {
+      "vehicle": 0,
+      "cost": 1905,
+      "delivery": [
+        3
+      ],
+      "amount": [
+        3
+      ],
+      "pickup": [
+        3
+      ],
+      "setup": 0,
+      "service": 0,
+      "duration": 1905,
+      "waiting_time": 2598,
+      "priority": 0,
+      "distance": 18200,
+      "steps": [
+        {
+          "type": "start",
+          "location": [
+            6.938998,
+            50.9364986
+          ],
+          "setup": 0,
+          "service": 0,
+          "waiting_time": 0,
+          "load": [
+            0
+          ],
+          "arrival": 1703451458,
+          "duration": 0,
+          "violations": [],
+          "distance": 0
+        },
+        {
+          "type": "pickup",
+          "location": [
+            6.9450656,
+            50.9471084
+          ],
+          "id": 0,
+          "setup": 0,
+          "service": 0,
+          "waiting_time": 0,
+          "job": 0,
+          "load": [
+            1
+          ],
+          "arrival": 1703451660,
+          "duration": 202,
+          "violations": [],
+          "distance": 1387
+        },
+        {
+          "type": "delivery",
+          "location": [
+            6.9347184,
+            50.9426359
+          ],
+          "id": 1,
+          "setup": 0,
+          "service": 0,
+          "waiting_time": 0,
+          "job": 1,
+          "load": [
+            0
+          ],
+          "arrival": 1703451788,
+          "duration": 330,
+          "violations": [],
+          "distance": 2503
+        },
+        {
+          "type": "pickup",
+          "location": [
+            6.9622812,
+            50.9362098
+          ],
+          "id": 4,
+          "setup": 0,
+          "service": 0,
+          "waiting_time": 1161,
+          "job": 4,
+          "load": [
+            1
+          ],
+          "arrival": 1703452239,
+          "duration": 781,
+          "violations": [],
+          "distance": 7143
+        },
+        {
+          "type": "delivery",
+          "location": [
+            6.9701213,
+            50.9364824
+          ],
+          "id": 5,
+          "setup": 0,
+          "service": 0,
+          "waiting_time": 0,
+          "job": 5,
+          "load": [
+            0
+          ],
+          "arrival": 1703453576,
+          "duration": 957,
+          "violations": [],
+          "distance": 8693
+        },
+        {
+          "type": "pickup",
+          "location": [
+            6.9816977,
+            50.9332972
+          ],
+          "id": 2,
+          "setup": 0,
+          "service": 0,
+          "waiting_time": 1437,
+          "job": 2,
+          "load": [
+            1
+          ],
+          "arrival": 1703453763,
+          "duration": 1144,
+          "violations": [],
+          "distance": 10338
+        },
+        {
+          "type": "delivery",
+          "location": [
+            6.992125,
+            50.9252228
+          ],
+          "id": 3,
+          "setup": 0,
+          "service": 0,
+          "waiting_time": 0,
+          "job": 3,
+          "load": [
+            0
+          ],
+          "arrival": 1703455446,
+          "duration": 1390,
+          "violations": [],
+          "distance": 12810
+        },
+        {
+          "type": "end",
+          "location": [
+            6.938998,
+            50.9364986
+          ],
+          "setup": 0,
+          "service": 0,
+          "waiting_time": 0,
+          "load": [
+            0
+          ],
+          "arrival": 1703455961,
+          "duration": 1905,
+          "violations": [],
+          "distance": 18200
+        }
+      ],
+      "violations": [],
+      "geometry": "cp{uH}gji@A?_@G{GaAIA[Gu@MUEg@IGCOEQAeDi@}AWKAUEa@GuCe@ICMAeAQi@K_@CKCYAYAUBE@IBODKAKCKEMKuCqCoCgCk@s@WU_@c@UWIWCUAa@AYA]AUCQKYIUc@qA{@qCSi@Wu@S_@QYIKCCGICCECGCG@ERKJIJkArAGL????FMjAsAHKJKL?HXFPTr@j@bBjAdDx@zBDTBRBP?LDf@Lf@NTf@f@RTDBFFtDlDfDbDLFHBF@JAFAFN@@FNTp@^fCv@bFF\\BRF`@XfBTzALh@}AvDk@nASj@Q`@Pa@Rk@j@oA|AwDp@uAxA_DDMHODMLYBMBK@OJk@Dc@TeBF{@B_@Do@?MBS?QDc@Du@Hu@F[BMDUFUBOBINs@F[D[F_@B[Bg@@i@@a@?[?U?_@Ac@Cm@Em@Gc@AOEYCQCMIc@Ia@GYGUQc@Q_@MWG[Ww@EKKWCKCMGQGYCQCUASAY?S@OFk@Hy@BS@O@W?]c@}IEmAEq@Cc@C{@AKASGgBEcACmAJc@BODKDKT]REZGv@I`@EFA\\EDARGVGLKbAMTA`@?T?P@f@Bl@J\\HRDJBVFFBp@RhAZf@HTBd@@f@@V?LDJB`AG|Be@JEPGJGBAFGR]BGBEBGFKHQBGBM@c@Dg@Dk@Dy@@y@@i@?i@?c@Ac@Eq@Cc@AUCY?KIc@IcAEm@Am@CeAAm@AMAk@?IAYA]CeBEyAE{BIq@Kg@K]Si@iAmDQ}@Io@Gm@EkA}@{_@C_D?_@CiCAk@A{@Ck@Cg@CSCQCIESO_@OUMQUQWMiAQiAEy@Im@?MA_@GQCOGOIMEMIKIWWUUUa@Y?CBEBEJ?HBPPXl@v@j@d@f@Vf@LRD\\D`DT`@HZJXRLLNNLTHTJXJj@D|@DbA?D@p@B|@H~Ez@|\\B|@@N?XDx@?PB`@B\\D`@PtANdAJj@FZ@JHn@@\\FzABn@DZHj@f@dDDTBRFZDPFj@Dp@Bb@?TQ@wADwAFCqE?KLGFCLANFP@lACLCXIDEJODUCeBEyAE{BIq@Kg@K]Si@iAmDQ}@Io@Gm@EkA}@{_@C_D?_@CiCDsAB_AB_@DWLWHKJIx@Rl@N^FJBR@rAFzA@xAE~BK`AIz@K\\K^IdAc@vBiAz@k@XOZUvAgADEHMBK@G?A?IAKAGCOIYi@a@SSc@_@[Y][OQIIIMISGICK{@iDYcAk@_BYs@]u@c@m@y@_AOOi@e@qA_AMKgBk@j@iF|@}Hz@uGVLWM{@tG}@|Hk@hFi@QqDa@SC_CO]AWAwBMMq@Ag@GyCGiBEeBCgBDa@BQDSBEVc@NYNGLEBCTKJI^WrAeAfCqBdC_B|BqA~BeAx@IlDkA~DkAzAc@lAe@r@k@x@y@v@gAZg@d@kAPc@v@_CpBwGdAsCtA}CvBkGf@yAP[JMRUDANC\\@jBfAl@ZZL[Mm@[kBgAwA_Ao@e@UDEBKLGNM`@}AlFoAdE{A|Fm@|B}BdH]|@Ub@OZMRYh@s@r@gAz@e@TOBU@UCQIOQMWEa@?]Bc@JYJSPKRGTBTNPVj@zAXjDH`BDjB?f@ArCAhBA|AA|DEvBI|AQpBUbB[fBm@jCiAhE]lA]jAETGZIr@Eb@Ef@C`@AVAJARObBGh@M^INMLMHMDO?OCICOQQ[GWEYAW@WD]H[JSNQJGNALAB?JDFBFD@@HJLNDHNZJ`@Pz@VdBV|BPpBBZ?HjEbq@f@bIt@pLFz@TvBP~AVhBLfAPzAVdBL~AD~@CdAQ|AOt@Qp@o@vBQj@]dAUz@a@lAy@fCe@xACNKr@Gl@Ar@P`BN~ADZFt@PzBHhBJnC@LDfABz@JnBBd@PvAFb@V~ARnA\\jBD^Gb@c@tA{@|CSVcB~FFx@w@T[HA@C?C@??IB_JvCODYJwAh@e@Py@VcBh@kBZ]DM@M@K@y@Fa@FYBM@I?M?M?K?GA"
+    }
+  ]
+}

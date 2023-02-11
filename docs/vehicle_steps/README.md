@@ -1,0 +1,10 @@
+- Problem 1
+  - vehicle:0 is doing all three shipments: 0/1,4/5,2/3
+- Problem 2
+  - vehicle:1 is doing all three shipments: 0/1,4/5,2/3
+- Problem 3
+  - both vehicle:0 and vehicle:1 are usable
+  - vehicle:0 is doing 0/1
+  - vehicle:1 is doing 4/5,2/3
+- Problem 4
+  - pickup 4 and delivery 5 needs to execured be vehicle:0
